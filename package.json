@@ -1,0 +1,23 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "primeiro teste webpack",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack ./app/App.js ./public/bundle.js",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "camila",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "2.3.2",
+    "webpack-dev-server": "2.3.2"
+  }
+}
